@@ -1,6 +1,6 @@
 import yt_dlp
 
-from custom_functions import greet
+
 
 ydl_opts = {
     'format': 'bestaudio/best',

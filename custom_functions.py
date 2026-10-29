@@ -1,6 +1,6 @@
 # def greet():
 #     print("skrrrr!")
-from yt_dlp.extractor import trueid
+
 
 
 # def greeting(name):
