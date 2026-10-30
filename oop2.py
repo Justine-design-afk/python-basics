@@ -7,20 +7,26 @@ class circle:
             return 22 / 7 * self.radius ** 2
 
         def perimeter(self):
-            return 22 / 7 * self.radius **2
-
+            return 22 / 7 * self.radius * 2
 
         def print_details(self):
-           print("radius is ", self.radius)
-           print("area is", self.area())
-           print("perimeter is", self.perimeter())
+            print("radius is ", self.radius)
+            print("area is", self.area())
+            print("perimeter is", self.perimeter())
+
+    def print_details(self):
+        pass
+
+    def area(self):
+        pass
 
 
-c1=circle(10)
-c2=circle(20)
-c3=circle(30)
+# objects==instance of a class
+c1 = circle(10)
+c2 = circle(20)
+c3 = circle(30)
 
 print(c1.area())
 c1.print_details()
 
-
+my_circles=[c1,c2,c3]
