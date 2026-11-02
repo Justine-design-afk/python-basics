@@ -6,9 +6,6 @@ with open("temp.txt", "w") as file:
     file.write("54.34\n")
 
 with open("temp.txt", "r") as file:
-    content=file.read()
+    content = file.read()
     print(content)
-
-
-
 

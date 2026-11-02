@@ -2,7 +2,6 @@
 #     print("skrrrr!")
 
 
-
 # def greeting(name):
 #     print(f"hello {name}")
 
@@ -35,23 +34,17 @@
 #  # name
 # v,a=volume_surface(21,12)
 
-def divide(a,b,should_round:bool=False):
-    res= a/b
-    if should_round== True:
-        return round(res,2)
+def divide(a, b, should_round: bool = False):
+    res = a / b
+    if should_round == True:
+        return round(res, 2)
     else:
         return res
 
 
-print(divide(9,5,True))
+print(divide(9, 5, True))
 
 
 
 
-
-
-
-
-
-
- #calling our functions == use no arguments / parameters == data
+# calling our functions == use no arguments / parameters == data
